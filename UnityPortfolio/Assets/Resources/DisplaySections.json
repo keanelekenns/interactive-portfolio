@@ -1,0 +1,24 @@
+{
+    "sections": [
+        {
+            "category": "Education",
+            "text": "Testing one two three blah blah blah.",
+            "size": 30
+        },
+        {
+            "category": "About Me",
+            "text": "Testing one two three blah blah blah.",
+            "size": 30
+        },
+        {
+            "category": "Projects",
+            "text": "Testing one two three blah blah blah.",
+            "size": 30
+        },
+        {
+            "category": "Work Experience",
+            "text": "Testing one two three blah blah blah.",
+            "size": 30
+        }
+    ]
+}
