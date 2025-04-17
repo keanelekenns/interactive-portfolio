@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraZoom : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
     public float zoomSpeed = 20f;         // Speed of zoom transition
     public float minZoom = 3f;
