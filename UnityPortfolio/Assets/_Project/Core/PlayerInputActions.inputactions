@@ -718,6 +718,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Camera",
+            "id": "cea01c0e-acb4-470e-9cc7-953a1942cda9",
+            "actions": [
+                {
+                    "name": "ScrollZoom",
+                    "type": "Value",
+                    "id": "ca99ca9f-11b0-4beb-91c0-a34683d36b03",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d52950f8-322d-4c61-9876-3bbad79aa916",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScrollZoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

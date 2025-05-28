@@ -1,36 +1,46 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public class CameraController : MonoBehaviour
 {
-    public float zoomSpeed = 20f;         // Speed of zoom transition
+    public float zoomSpeed = 3f;  // Speed of zoom transition
     public float minZoom = 3f;
-    public float maxZoom = 25f;
+    public float maxZoom = 24f;
 
     private Camera cam;
     private float targetZoom;
+    private PlayerInputActions inputActions;
 
-    void Start()
+    void Awake()
     {
         cam = GetComponent<Camera>();
+
+        inputActions = new PlayerInputActions();
         targetZoom = cam.orthographicSize;
     }
-
-    void Update()
+    private void OnEnable()
     {
-        // Handle input
-        if (Input.GetKey(KeyCode.Equals)) // Zoom in
-        {
-            targetZoom -= zoomSpeed * Time.deltaTime;
-        }
-        else if (Input.GetKey(KeyCode.Minus)) // Zoom out
-        {
-            targetZoom += zoomSpeed * Time.deltaTime;
-        }
-
-        // Clamp target zoom
-        targetZoom = Mathf.Clamp(targetZoom, minZoom, maxZoom);
-
-        // Smoothly move camera zoom toward target
-        cam.orthographicSize = Mathf.MoveTowards(cam.orthographicSize, targetZoom, zoomSpeed * Time.deltaTime);
+        inputActions.Camera.Enable();
+        inputActions.Camera.ScrollZoom.performed += UpdateScrollZoom;
     }
+
+    private void OnDisable()
+    {
+        inputActions.Camera.Disable();
+    }
+
+    private void UpdateScrollZoom(InputAction.CallbackContext context)
+    {
+        float scrollValue = context.ReadValue<float>();
+        float direction = Mathf.Sign(scrollValue);
+
+        if (Mathf.Abs(scrollValue) > 0.01f)
+        {
+            cam.orthographicSize -= direction * zoomSpeed;
+            cam.orthographicSize = Mathf.Clamp(cam.orthographicSize, minZoom, maxZoom);
+        }
+    }
+
+
 }
