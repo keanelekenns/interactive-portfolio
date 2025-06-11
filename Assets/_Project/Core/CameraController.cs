@@ -27,6 +27,18 @@ public class CameraController : MonoBehaviour
         inputActions.Camera.Disable();
     }
 
+    void Start()
+    {
+        if (DeviceUtils.IsMobile())
+        {
+            cam.orthographicSize = 24f; // zoomed out for smaller screens
+        }
+        else
+        {
+            cam.orthographicSize = 20f;
+        }
+    }
+
     private void UpdateScrollZoom(InputAction.CallbackContext context)
     {
         float scrollValue = context.ReadValue<float>();
