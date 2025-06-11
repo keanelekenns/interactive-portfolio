@@ -42,19 +42,19 @@
         "**/*.mat": true,
         "**/*.meta": true,
         "**/*.prefab": true,
-        "**/*.unity": true,
-        "build/": true,
-        "Build/": true,
-        "Library/": true,
-        "library/": true,
-        "obj/": true,
-        "Obj/": true,
-        "Logs/": true,
-        "logs/": true,
-        "ProjectSettings/": true,
-        "UserSettings/": true,
-        "temp/": true,
-        "Temp/": true
+        "**/*.unity": false,
+        "build/": false,
+        "Build/": false,
+        "Library/": false,
+        "library/": false,
+        "obj/": false,
+        "Obj/": false,
+        "Logs/": false,
+        "logs/": false,
+        "ProjectSettings/": false,
+        "UserSettings/": false,
+        "temp/": false,
+        "Temp/": false
     },
-    "dotnet.defaultSolution": "UnityPortfolio.sln"
+    "dotnet.defaultSolution": "interactive-portfolio.sln"
 }
