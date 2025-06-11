@@ -753,6 +753,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""PinchZoom"",
+                    ""type"": ""Value"",
+                    ""id"": ""683b56cb-3faa-4bab-a38b-832c94c4b3c4"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -766,6 +775,50 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""ScrollZoom"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Pinch"",
+                    ""id"": ""bf4bb580-f7f4-4208-827f-188df0a35046"",
+                    ""path"": ""TwoModifiers"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PinchZoom"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier1"",
+                    ""id"": ""fec8970c-a42d-4d55-a99c-cf6077506c88"",
+                    ""path"": ""<Touchscreen>/touch0/press"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PinchZoom"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""modifier2"",
+                    ""id"": ""aaa3430d-453e-48c4-b2e6-04835af8befb"",
+                    ""path"": ""<Touchscreen>/touch1/press"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PinchZoom"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""27248649-d8ae-45b2-94ed-d5cd9f3d9da5"",
+                    ""path"": ""<Touchscreen>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PinchZoom"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -852,6 +905,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         // Camera
         m_Camera = asset.FindActionMap("Camera", throwIfNotFound: true);
         m_Camera_ScrollZoom = m_Camera.FindAction("ScrollZoom", throwIfNotFound: true);
+        m_Camera_PinchZoom = m_Camera.FindAction("PinchZoom", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1086,11 +1140,13 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Camera;
     private List<ICameraActions> m_CameraActionsCallbackInterfaces = new List<ICameraActions>();
     private readonly InputAction m_Camera_ScrollZoom;
+    private readonly InputAction m_Camera_PinchZoom;
     public struct CameraActions
     {
         private @PlayerInputActions m_Wrapper;
         public CameraActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @ScrollZoom => m_Wrapper.m_Camera_ScrollZoom;
+        public InputAction @PinchZoom => m_Wrapper.m_Camera_PinchZoom;
         public InputActionMap Get() { return m_Wrapper.m_Camera; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1103,6 +1159,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @ScrollZoom.started += instance.OnScrollZoom;
             @ScrollZoom.performed += instance.OnScrollZoom;
             @ScrollZoom.canceled += instance.OnScrollZoom;
+            @PinchZoom.started += instance.OnPinchZoom;
+            @PinchZoom.performed += instance.OnPinchZoom;
+            @PinchZoom.canceled += instance.OnPinchZoom;
         }
 
         private void UnregisterCallbacks(ICameraActions instance)
@@ -1110,6 +1169,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @ScrollZoom.started -= instance.OnScrollZoom;
             @ScrollZoom.performed -= instance.OnScrollZoom;
             @ScrollZoom.canceled -= instance.OnScrollZoom;
+            @PinchZoom.started -= instance.OnPinchZoom;
+            @PinchZoom.performed -= instance.OnPinchZoom;
+            @PinchZoom.canceled -= instance.OnPinchZoom;
         }
 
         public void RemoveCallbacks(ICameraActions instance)
@@ -1193,5 +1255,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     public interface ICameraActions
     {
         void OnScrollZoom(InputAction.CallbackContext context);
+        void OnPinchZoom(InputAction.CallbackContext context);
     }
 }
