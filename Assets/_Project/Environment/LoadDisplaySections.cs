@@ -50,5 +50,8 @@ public class JsonLoader : MonoBehaviour
         newText.SetText(message);
         newText.fontSize = fontSize;
         newText.transform.localPosition = position;
+
+        // Force a mesh update so bounds are correct
+        newText.ForceMeshUpdate();
     }
 }
