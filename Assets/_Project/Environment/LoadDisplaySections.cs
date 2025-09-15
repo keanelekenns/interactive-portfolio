@@ -53,5 +53,7 @@ public class JsonLoader : MonoBehaviour
 
         // Force a mesh update so bounds are correct
         newText.ForceMeshUpdate();
+
+        newText.gameObject.name = message;
     }
 }

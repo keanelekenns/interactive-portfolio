@@ -7,24 +7,16 @@ public class InspectableObject : Interactable
 
     void Start()
     {
-        // Create the button above the text object
-        CreateInspectButton();
-        inspectButton.SetActive(false); // hidden until player touches
+        SetupInspectButton();
     }
 
-    private void CreateInspectButton()
+    private void SetupInspectButton()
     {
-        // You can replace this with your own prefab if you want styling
-        inspectButton = new GameObject("InspectButton");
-        Button btn = inspectButton.AddComponent<Button>();
-        TextMeshProUGUI btnText = inspectButton.AddComponent<TextMeshProUGUI>();
-        btnText.text = "Inspect";
-
-        // Position the button just above the text
-        inspectButton.transform.SetParent(transform, false);
-        inspectButton.transform.localPosition = Vector3.up * 2f;
-
-        btn.onClick.AddListener(Interact);
+        // Canvas canvas = GetComponent<Canvas>();
+        Button button = GetComponentInChildren<Button>();
+        inspectButton = button.gameObject;
+        button.onClick.AddListener(Interact);
+        inspectButton.SetActive(false);
     }
 
     protected override void OnTriggerEnter2D(Collider2D other)

@@ -84,7 +84,7 @@ public class CameraController : MonoBehaviour
 
     public void Zoom(float zoomDelta)
     {
-        Debug.Log("Zoom: " + zoomDelta);
+        // Debug.Log("Zoom: " + zoomDelta);
         cam.orthographicSize -= zoomDelta * zoomSpeed;
         cam.orthographicSize = Mathf.Clamp(cam.orthographicSize, minZoom, maxZoom);
     }
