@@ -21,8 +21,6 @@ public class InspectableObject : Interactable
 
     protected override void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log($"{name} triggered by {other.name}");
-
         // An Interactable can only be discovered by the player by default
         if (other.CompareTag("Player"))
         {
@@ -33,7 +31,6 @@ public class InspectableObject : Interactable
 
     protected override void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log($"EXIT: {other.name}");
         if (other.CompareTag("Player"))
         {
             inspectButton.SetActive(false);

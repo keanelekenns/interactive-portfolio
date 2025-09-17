@@ -8,7 +8,6 @@ public class Interactable : MonoBehaviour
         // Ensure the collider is set up as a trigger
         var collider = GetComponent<BoxCollider2D>();
         collider.isTrigger = true;
-        // TODO: set to fit minimum bounding box of gameobject renderer
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D other)

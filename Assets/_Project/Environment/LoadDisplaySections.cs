@@ -1,9 +1,8 @@
-using TMPro;
 using UnityEngine;
 
 public class JsonLoader : MonoBehaviour
 {
-    public TextMeshPro textPrefab;
+    public Section sectionPrefab;
     public Transform center;
     public float radius = 7;
 
@@ -46,14 +45,8 @@ public class JsonLoader : MonoBehaviour
     /// <param name="fontSize">How large the text is.</param>
     void SpawnText(Vector3 position, string message, float fontSize)
     {
-        TMP_Text newText = Instantiate(textPrefab, transform);
-        newText.SetText(message);
-        newText.fontSize = fontSize;
-        newText.transform.localPosition = position;
-
-        // Force a mesh update so bounds are correct
-        newText.ForceMeshUpdate();
-
-        newText.gameObject.name = message;
+        Section section = Instantiate(sectionPrefab, position, transform.rotation, transform);
+        section.title = message;
+        section.fontSize = fontSize;
     }
 }
