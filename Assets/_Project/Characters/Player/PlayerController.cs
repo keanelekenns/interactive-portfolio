@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 dest = context.ReadValue<Vector2>();
         Vector3 dest3d = Camera.main.ScreenToWorldPoint(dest);
-        Debug.Log("destination: " + dest3d.x + " " + dest3d.y + " " + dest3d.z);
+        // Debug.Log("destination: " + dest3d.x + " " + dest3d.y + " " + dest3d.z);
         destination = new Vector3(dest3d.x, dest3d.y, 0);
     }
 }
