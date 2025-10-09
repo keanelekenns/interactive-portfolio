@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638955527976067794
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -148,7 +148,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 164
       y: 71
       width: 32
       height: 58
@@ -160,7 +160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 71}
+    uvTransform: {x: 164, y: 71}
   - name: Keanu_Frame_2
     originalName: 
     pivot: {x: 0.5, y: -0.051724136}
@@ -168,8 +168,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 137
+      x: 204
+      y: 4
       width: 30
       height: 58
     spriteID: f292c0197ba4a374ea153e1b76943355
@@ -180,7 +180,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 137}
+    uvTransform: {x: 204, y: 4}
   - name: Keanu_Frame_3
     originalName: 
     pivot: {x: 0.5, y: -0.05263158}
@@ -188,8 +188,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 44
-      y: 4
+      x: 204
+      y: 136
       width: 30
       height: 57
     spriteID: 2031cc01c13b68b42a3e8a19e2140a2f
@@ -200,7 +200,287 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
+    uvTransform: {x: 204, y: 136}
+  - name: Keanu_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 70
+      width: 30
+      height: 58
+    spriteID: a898cc7b4ed292f49b127f7cdaf61c3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 70}
+  - name: Keanu_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 137
+      width: 32
+      height: 58
+    spriteID: 2e3276b05ce0d3444af5ea4f1ead3f85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 137}
+  - name: Keanu_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 71
+      width: 32
+      height: 59
+    spriteID: 3b2ee126481db2c47938633e0ea2cdb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 71}
+  - name: Keanu_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 138
+      width: 32
+      height: 59
+    spriteID: 674e701082d30014eb1f43c7845acdd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 138}
+  - name: Keanu_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 32
+      height: 59
+    spriteID: c0a3e426051d8cd4f957b8d0fcaebe5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
     uvTransform: {x: 44, y: 4}
+  - name: Keanu_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 71
+      width: 32
+      height: 59
+    spriteID: b1aacad45deeeed47b9473aee5332622
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 71}
+  - name: Keanu_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 138
+      width: 32
+      height: 59
+    spriteID: 3c9654c1a4f6ee84ea9e874343757770
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 138}
+  - name: Keanu_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 32
+      height: 59
+    spriteID: 74b6ab44797cf5b4dae1c69bdde91853
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: Keanu_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 71
+      width: 32
+      height: 59
+    spriteID: d920307f3c7331d4685e8967d139b33c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 71}
+  - name: Keanu_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 138
+      width: 32
+      height: 59
+    spriteID: 7c3081426f4e06a408992c7af1c24704
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 138}
+  - name: Keanu_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 4
+      width: 32
+      height: 59
+    spriteID: bf2e2acf57f5c3d44a5f5b599ed98041
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 4}
+  - name: Keanu_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 71
+      width: 32
+      height: 59
+    spriteID: 3867f6861969f444fbef1ae73a63f484
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 71}
+  - name: Keanu_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 138
+      width: 32
+      height: 59
+    spriteID: 6214e8e62dc65d446a722270b037f8d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 138}
+  - name: Keanu_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 32
+      height: 59
+    spriteID: 281b6700c0e8b9b4bbdafa177aaffd7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -242,9 +522,157 @@ ScriptedImporter:
         width: 30
         height: 57
       spriteId: 2031cc01c13b68b42a3e8a19e2140a2f
+    - name: Keanu_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 17
+        y: 3
+        width: 30
+        height: 58
+      spriteId: a898cc7b4ed292f49b127f7cdaf61c3a
+    - name: Keanu_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 58
+      spriteId: 2e3276b05ce0d3444af5ea4f1ead3f85
+    - name: Keanu_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: 3b2ee126481db2c47938633e0ea2cdb6
+    - name: Keanu_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: 674e701082d30014eb1f43c7845acdd5
+    - name: Keanu_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: c0a3e426051d8cd4f957b8d0fcaebe5d
+    - name: Keanu_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: b1aacad45deeeed47b9473aee5332622
+    - name: Keanu_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: 3c9654c1a4f6ee84ea9e874343757770
+    - name: Keanu_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: 74b6ab44797cf5b4dae1c69bdde91853
+    - name: Keanu_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: d920307f3c7331d4685e8967d139b33c
+    - name: Keanu_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: 7c3081426f4e06a408992c7af1c24704
+    - name: Keanu_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: bf2e2acf57f5c3d44a5f5b599ed98041
+    - name: Keanu_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: 3867f6861969f444fbef1ae73a63f484
+    - name: Keanu_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: 6214e8e62dc65d446a722270b037f8d5
+    - name: Keanu_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 16
+        y: 3
+        width: 32
+        height: 59
+      spriteId: 281b6700c0e8b9b4bbdafa177aaffd7e
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 

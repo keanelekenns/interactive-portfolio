@@ -9,12 +9,14 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb; // Rigidbody2D component for physics-based movement
     private PlayerInputActions playerActions;
+    private Animator animator;
 
     private void Awake()
     {
         // Get the Rigidbody2D component attached to this GameObject
         rb = GetComponent<Rigidbody2D>();
         playerActions = new PlayerInputActions();
+        animator = GetComponentInChildren<Animator>();
     }
 
     private void OnEnable()
@@ -32,6 +34,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         MoveCharacter();
+        UpdateAnimator();
     }
 
     private void MoveCharacter()
@@ -66,5 +69,29 @@ public class PlayerController : MonoBehaviour
         Vector3 dest3d = Camera.main.ScreenToWorldPoint(dest);
         // Debug.Log("destination: " + dest3d.x + " " + dest3d.y + " " + dest3d.z);
         destination = new Vector3(dest3d.x, dest3d.y, 0);
+    }
+
+    private void UpdateAnimator()
+    {
+        bool isWalkingNorth = false;
+        bool isWalkingSouth = false;
+        bool isIdle = false;
+
+        if (rb.velocity.y > 0)
+        {
+            isWalkingNorth = true;
+        }
+        else if (rb.velocity.y < 0)
+        {
+            isWalkingSouth = true;
+        }
+        else
+        {
+            isIdle = true;
+        }
+
+        animator.SetBool("isWalkingNorth", isWalkingNorth);
+        animator.SetBool("isWalkingSouth", isWalkingSouth);
+        animator.SetBool("isIdle", isIdle);
     }
 }
