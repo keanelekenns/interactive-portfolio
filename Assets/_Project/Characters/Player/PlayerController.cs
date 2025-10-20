@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -73,17 +74,62 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimator()
     {
+
+        Vector3 movement;
+        if (destination is Vector3 dest)
+        {
+            movement = dest - transform.position;
+        }
+        else
+        {
+            movement = rb.velocity;
+        }
+
+        float absVertical = Math.Abs(movement.y);
+        float absHorizontal = Math.Abs(movement.x);
+
+        // Determine the dominating axis if both have magnitude
+        bool walkingVertical = false;
+        bool walkingHorizontal = false;
+        if (absHorizontal > 0 && absVertical > 0)
+        {
+            if (absHorizontal > absVertical)
+            {
+                walkingHorizontal = true;
+            }
+            else
+            {
+                walkingVertical = true;
+            }
+        }
+
+        // Determine the correct direction if there is one
         bool isWalkingNorth = false;
         bool isWalkingSouth = false;
+        bool isWalkingWest = false;
+        bool isWalkingEast = false;
         bool isIdle = false;
-
-        if (rb.velocity.y > 0)
+        if (absVertical > 0 && !walkingHorizontal)
         {
-            isWalkingNorth = true;
+            if (movement.y > 0)
+            {
+                isWalkingNorth = true;
+            }
+            else
+            {
+                isWalkingSouth = true;
+            }
         }
-        else if (rb.velocity.y < 0)
+        else if (absHorizontal > 0 && !walkingVertical)
         {
-            isWalkingSouth = true;
+            if (movement.x > 0)
+            {
+                isWalkingEast = true;
+            }
+            else
+            {
+                isWalkingWest = true;
+            }
         }
         else
         {
@@ -92,6 +138,8 @@ public class PlayerController : MonoBehaviour
 
         animator.SetBool("isWalkingNorth", isWalkingNorth);
         animator.SetBool("isWalkingSouth", isWalkingSouth);
+        animator.SetBool("isWalkingWest", isWalkingWest);
+        animator.SetBool("isWalkingEast", isWalkingEast);
         animator.SetBool("isIdle", isIdle);
     }
 }
