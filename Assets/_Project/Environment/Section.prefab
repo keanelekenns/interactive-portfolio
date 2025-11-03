@@ -39,7 +39,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.2973, y: 0.8194}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 34.5946, y: 6.639}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &2809811794780440104
@@ -268,6 +268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4b25d5c91806a44a8040a6b18c4804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: 
+  fontSize: 0
 --- !u!1 &208493981038837996
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,7 +417,7 @@ GameObject:
   - component: {fileID: 3389309106513716160}
   - component: {fileID: 8752055369745086440}
   m_Layer: 5
-  m_Name: UI
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

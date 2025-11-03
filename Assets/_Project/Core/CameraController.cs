@@ -8,23 +8,20 @@ public class CameraController : MonoBehaviour
     public float maxZoom = 24f;
 
     private Camera cam;
-    private PlayerInputActions inputActions;
 
     void Awake()
     {
         cam = GetComponent<Camera>();
-
-        inputActions = new PlayerInputActions();
     }
     private void OnEnable()
     {
-        inputActions.Camera.Enable();
-        inputActions.Camera.ScrollZoom.performed += UpdateScrollZoom;
+        InputManager.InputActions.Camera.Enable();
+        InputManager.InputActions.Camera.ScrollZoom.performed += UpdateScrollZoom;
     }
 
     private void OnDisable()
     {
-        inputActions.Camera.Disable();
+        InputManager.InputActions.Camera.Disable();
     }
 
     void Start()

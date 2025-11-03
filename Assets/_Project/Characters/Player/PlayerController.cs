@@ -9,26 +9,24 @@ public class PlayerController : MonoBehaviour
     private Vector3? destination = null; // Where the player wants to be
 
     private Rigidbody2D rb; // Rigidbody2D component for physics-based movement
-    private PlayerInputActions playerActions;
     private Animator animator;
 
     private void Awake()
     {
         // Get the Rigidbody2D component attached to this GameObject
         rb = GetComponent<Rigidbody2D>();
-        playerActions = new PlayerInputActions();
         animator = GetComponentInChildren<Animator>();
     }
 
     private void OnEnable()
     {
-        playerActions.Enable();
-        playerActions.Player.PointMove.performed += UpdatePlayerDestination;
+        InputManager.InputActions.Player.Enable();
+        InputManager.InputActions.Player.PointMove.performed += UpdatePlayerDestination;
     }
 
     private void OnDisable()
     {
-        playerActions.Disable();
+        InputManager.InputActions.Player.Disable();
     }
 
 
@@ -41,7 +39,7 @@ public class PlayerController : MonoBehaviour
     private void MoveCharacter()
     {
         // Read any manual movement inputs
-        moveInput = playerActions.Player.Move.ReadValue<Vector2>();
+        moveInput = InputManager.InputActions.Player.Move.ReadValue<Vector2>();
         if (moveInput != Vector2.zero) // Manual movement takes precedence
         {
             destination = null;
