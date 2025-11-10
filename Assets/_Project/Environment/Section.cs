@@ -5,14 +5,13 @@ using TMPro;
 public class Section : Interactable
 {
     public DisplaySection details;
+    public InformationModal informationModal;
     private GameObject inspectButton;
-    private InformationModal informationModal;
 
     void Start()
     {
         SetupTitle();
         SetupInspectButton();
-        SetupInformationModal();
     }
 
     void SetupTitle()
@@ -28,9 +27,6 @@ public class Section : Interactable
         BoxCollider2D collider = GetComponent<BoxCollider2D>();
         collider.size = textMeshProText.bounds.size;
         collider.offset = textMeshProText.bounds.center;
-
-        gameObject.name = details.category;
-
     }
 
     private void SetupInspectButton()
@@ -39,11 +35,6 @@ public class Section : Interactable
         inspectButton = button.gameObject;
         button.onClick.AddListener(Interact);
         inspectButton.SetActive(false);
-    }
-    private void SetupInformationModal()
-    {
-        informationModal = GetComponentInChildren<InformationModal>();
-        informationModal.gameObject.SetActive(false);
     }
 
     protected override void OnTriggerEnter2D(Collider2D other)
@@ -78,7 +69,6 @@ public class Section : Interactable
             return;
         }
         Debug.Log($"Inspecting: {name}");
-        // TODO: Open
         informationModal.gameObject.SetActive(true);
     }
 }
