@@ -5,7 +5,7 @@ using TMPro;
 public class Section : Interactable
 {
     public DisplaySection details;
-    public InformationModal informationModal;
+    public MonoBehaviour informationModal;
     private GameObject inspectButton;
 
     void Start()
