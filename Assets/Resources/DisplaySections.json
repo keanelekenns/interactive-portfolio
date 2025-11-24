@@ -1,23 +1,75 @@
 {
     "sections": [
         {
-            "category": "Education",
-            "text": "Testing one two three blah blah blah.",
+            "title": "Education",
+            "contents": [
+                {
+                    "type": "text",
+                    "value": "test 1"
+                }
+            ],
             "size": 30
         },
         {
-            "category": "About Me",
-            "text": "Testing one two three blah blah blah.",
+            "title": "About Me",
+            "contents": [
+                {
+                    "type": "text",
+                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+                },
+                {
+                    "type": "text",
+                    "value": "test 2"
+                },
+                {
+                    "type": "text",
+                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+                },
+                {
+                    "type": "image",
+                    "value": "profilepic"
+                },
+                {
+                    "type": "text",
+                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+                },
+                {
+                    "type": "text",
+                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+                },
+                {
+                    "type": "text",
+                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+                },
+                {
+                    "type": "text",
+                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+                },
+                {
+                    "type": "text",
+                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+                }
+            ],
             "size": 30
         },
         {
-            "category": "Projects",
-            "text": "Testing one two three blah blah blah.",
+            "title": "Projects",
+            "contents": [
+                {
+                    "type": "text",
+                    "value": "test 1"
+                }
+            ],
             "size": 30
         },
         {
-            "category": "Work Experience",
-            "text": "Testing one two three blah blah blah.",
+            "title": "Work Experience",
+            "contents": [
+                {
+                    "type": "text",
+                    "value": "test 1"
+                }
+            ],
             "size": 30
         }
     ]

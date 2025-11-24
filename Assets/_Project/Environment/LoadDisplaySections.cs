@@ -3,7 +3,7 @@ using UnityEngine;
 public class JsonLoader : MonoBehaviour
 {
     public Section sectionPrefab;
-    public MonoBehaviour modalPrefab;
+    public InformationModal modalPrefab;
     public Transform center;
     public float radius = 7;
 
@@ -47,11 +47,13 @@ public class JsonLoader : MonoBehaviour
     {
         Section section = Instantiate(sectionPrefab, position, transform.rotation, transform);
         section.details = values;
-        MonoBehaviour modal = Instantiate(modalPrefab, transform);
+        InformationModal modal = Instantiate(modalPrefab, transform);
         modal.gameObject.SetActive(false);
         section.informationModal = modal;
 
-        section.gameObject.name = values.category;
-        modal.gameObject.name = values.category + " Modal";
+        section.gameObject.name = values.title;
+        modal.gameObject.name = values.title + " Modal";
+
+        modal.AddContents(values.contents);
     }
 }

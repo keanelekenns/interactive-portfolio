@@ -17,7 +17,7 @@ public class Section : Interactable
     void SetupTitle()
     {
         TMP_Text textMeshProText = GetComponent<TMP_Text>();
-        textMeshProText.SetText(details.category);
+        textMeshProText.SetText(details.title);
         textMeshProText.fontSize = details.size;
 
         // Force a mesh update so bounds are correct
@@ -68,7 +68,6 @@ public class Section : Interactable
             Debug.Log("Inspect Button is not active!");
             return;
         }
-        Debug.Log($"Inspecting: {name}");
         informationModal.gameObject.SetActive(true);
     }
 }
