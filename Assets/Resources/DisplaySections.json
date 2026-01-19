@@ -8,7 +8,7 @@
                     "value": "test 1"
                 }
             ],
-            "size": 30
+            "size": 24
         },
         {
             "title": "About Me",
@@ -50,7 +50,7 @@
                     "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
                 }
             ],
-            "size": 30
+            "size": 24
         },
         {
             "title": "Projects",
@@ -60,7 +60,7 @@
                     "value": "test 1"
                 }
             ],
-            "size": 30
+            "size": 24
         },
         {
             "title": "Work Experience",
@@ -70,7 +70,7 @@
                     "value": "test 1"
                 }
             ],
-            "size": 30
+            "size": 24
         }
     ]
 }
