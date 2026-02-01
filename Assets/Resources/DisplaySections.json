@@ -11,16 +11,6 @@
             "size": 12
         },
         {
-            "title": "???",
-            "contents": [
-                {
-                    "type": "text",
-                    "value": "test 1"
-                }
-            ],
-            "size": 12
-        },
-        {
             "title": "About Me",
             "contents": [
                 {
@@ -63,6 +53,16 @@
             "size": 12
         },
         {
+            "title": "Work Experience",
+            "contents": [
+                {
+                    "type": "text",
+                    "value": "test 1"
+                }
+            ],
+            "size": 12
+        },
+        {
             "title": "Projects",
             "contents": [
                 {
@@ -73,7 +73,7 @@
             "size": 12
         },
         {
-            "title": "Work Experience",
+            "title": "???",
             "contents": [
                 {
                     "type": "text",
