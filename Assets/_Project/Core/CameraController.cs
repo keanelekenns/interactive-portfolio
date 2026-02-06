@@ -28,11 +28,11 @@ public class CameraController : MonoBehaviour
     {
         if (DeviceUtils.IsMobile())
         {
-            cam.orthographicSize = 12f; // zoomed out for smaller screens
+            cam.orthographicSize = 14f; // zoomed out for smaller screens
         }
         else
         {
-            cam.orthographicSize = 10f;
+            cam.orthographicSize = 12f;
         }
     }
 

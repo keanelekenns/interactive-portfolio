@@ -1,0 +1,5 @@
+(house) https://craftpix.net/freebies/main-characters-home-free-top-down-pixel-art-asset/
+(interior) https://penzilla.itch.io/top-down-retro-interior
+(controller) https://opengameart.org/users/thegamingpenguin
+(tv) https://opengameart.org/content/lpc-but-not-really-bean-bag-and-really-old-tv
+(workbench) https://opengameart.org/content/lpc-woodshop
