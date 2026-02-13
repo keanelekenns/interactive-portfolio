@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -804,278 +805,317 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1104547712
+    uuid:
+      value0: 2804788608
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1490178688
     name: Keanu
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Keanu_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 8480a129f875eaa4f8424b250f537d27
-    - name: Keanu_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 58
       spriteId: d04909058b3f2c94da4ace90f88fd421
-    - name: Keanu_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
         width: 30
         height: 58
       spriteId: f292c0197ba4a374ea153e1b76943355
-    - name: Keanu_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
         width: 30
         height: 57
       spriteId: 2031cc01c13b68b42a3e8a19e2140a2f
-    - name: Keanu_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
         width: 30
         height: 58
       spriteId: a898cc7b4ed292f49b127f7cdaf61c3a
-    - name: Keanu_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 58
       spriteId: 2e3276b05ce0d3444af5ea4f1ead3f85
-    - name: Keanu_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 3b2ee126481db2c47938633e0ea2cdb6
-    - name: Keanu_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 674e701082d30014eb1f43c7845acdd5
-    - name: Keanu_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: c0a3e426051d8cd4f957b8d0fcaebe5d
-    - name: Keanu_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: b1aacad45deeeed47b9473aee5332622
-    - name: Keanu_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 3c9654c1a4f6ee84ea9e874343757770
-    - name: Keanu_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 74b6ab44797cf5b4dae1c69bdde91853
-    - name: Keanu_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: d920307f3c7331d4685e8967d139b33c
-    - name: Keanu_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 7c3081426f4e06a408992c7af1c24704
-    - name: Keanu_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: bf2e2acf57f5c3d44a5f5b599ed98041
-    - name: Keanu_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 3867f6861969f444fbef1ae73a63f484
-    - name: Keanu_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 6214e8e62dc65d446a722270b037f8d5
-    - name: Keanu_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 3
         width: 32
         height: 59
       spriteId: 281b6700c0e8b9b4bbdafa177aaffd7e
-    - name: Keanu_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: 9bca9006daa137442b01e9f590508333
-    - name: Keanu_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: 0ef301826e80007498b4b98972b39dfb
-    - name: Keanu_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
         width: 30
         height: 59
       spriteId: 3355f1724a18c4b4eaa6aa2e73d73083
-    - name: Keanu_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 2
         width: 28
         height: 60
       spriteId: af4b40ee28d049c45b12238a7af4708c
-    - name: Keanu_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: 7e50102fcec67f2449202ea55ea6e313
-    - name: Keanu_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: 7884a0e0a02e9394f8ba1973729771e2
-    - name: Keanu_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
         width: 30
         height: 59
       spriteId: 6152df60ec8843f44a091bc1b7aa9ece
-    - name: Keanu_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: 9ec3e9d1d24973841ae6e7d29bc46e82
-    - name: Keanu_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: 4c513eb7c8e9f9340b08693d69799dc3
-    - name: Keanu_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: dadbbf20956bd0d45afa6b47603216e8
-    - name: Keanu_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
         width: 30
         height: 59
       spriteId: adfbc995bbd37fc4bbfb1b04068fa0df
-    - name: Keanu_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 2
         width: 28
         height: 60
       spriteId: 63e7abcf5d5a48d4686add98baa7d4ed
-    - name: Keanu_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: ade9595488097de46a53f088c67ee010
-    - name: Keanu_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
         width: 28
         height: 59
       spriteId: 765fe09658581d44cb79c4477f405847
-    - name: Keanu_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
         width: 30
         height: 59
       spriteId: 1db24662695dc144597445d3c18d40ce
-    - name: Keanu_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 3
@@ -1125,3 +1165,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}
+  previousTextureSize: {x: 256, y: 512}
