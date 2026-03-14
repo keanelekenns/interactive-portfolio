@@ -16552,6 +16552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1069999938}
   - component: {fileID: 1069999937}
+  - component: {fileID: 1069999939}
   m_Layer: 0
   m_Name: MusicPlayer
   m_TagString: Untagged
@@ -16568,10 +16569,10 @@ AudioSource:
   m_GameObject: {fileID: 1069999936}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 321ea9a76632560499625824fc8a387f, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 4201d904ffcc2954fb222e58c299858d, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 8f222336bf64a6f4ab13868f3ff25d61, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.06
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -16582,7 +16583,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -16600,7 +16601,7 @@ AudioSource:
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 0
+      value: 0.97177124
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -16630,7 +16631,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -16670,6 +16671,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1069999939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069999936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 238a7748c2cf73242acc151a9823d3aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1069999937}
+  fadeDuration: 2
+  targetVolume: 0.3
 --- !u!1 &1071382835
 GameObject:
   m_ObjectHideFlags: 0
