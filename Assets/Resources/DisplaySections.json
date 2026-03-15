@@ -1,86 +1,106 @@
 {
-    "sections": [
+  "sections": [
+    {
+      "title": "Education",
+      "contents": [
         {
-            "title": "Education",
-            "contents": [
-                {
-                    "type": "text",
-                    "value": "test 1"
-                }
-            ],
-            "size": 12
-        },
-        {
-            "title": "About Me",
-            "contents": [
-                {
-                    "type": "text",
-                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-                },
-                {
-                    "type": "text",
-                    "value": "test 2"
-                },
-                {
-                    "type": "text",
-                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-                },
-                {
-                    "type": "image",
-                    "value": "profilepic"
-                },
-                {
-                    "type": "text",
-                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-                },
-                {
-                    "type": "text",
-                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-                },
-                {
-                    "type": "text",
-                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-                },
-                {
-                    "type": "text",
-                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-                },
-                {
-                    "type": "text",
-                    "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-                }
-            ],
-            "size": 12
-        },
-        {
-            "title": "Work Experience",
-            "contents": [
-                {
-                    "type": "text",
-                    "value": "test 1"
-                }
-            ],
-            "size": 12
-        },
-        {
-            "title": "Projects",
-            "contents": [
-                {
-                    "type": "text",
-                    "value": "test 1"
-                }
-            ],
-            "size": 12
-        },
-        {
-            "title": "???",
-            "contents": [
-                {
-                    "type": "text",
-                    "value": "test 1"
-                }
-            ],
-            "size": 12
+          "type": "text",
+          "value": "test 1"
         }
-    ]
+      ],
+      "size": 12,
+      "location": {
+        "x": 31.05,
+        "y": -7.36
+      }
+    },
+    {
+      "title": "About Me",
+      "contents": [
+        {
+          "type": "text",
+          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+        },
+        {
+          "type": "text",
+          "value": "test 2"
+        },
+        {
+          "type": "text",
+          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+        },
+        {
+          "type": "image",
+          "value": "profilepic"
+        },
+        {
+          "type": "text",
+          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+        },
+        {
+          "type": "text",
+          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+        },
+        {
+          "type": "text",
+          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+        },
+        {
+          "type": "text",
+          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+        },
+        {
+          "type": "text",
+          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+        }
+      ],
+      "size": 12,
+      "location": {
+        "x": 10.35,
+        "y": 12.95
+      }
+    },
+    {
+      "title": "Work Experience",
+      "contents": [
+        {
+          "type": "text",
+          "value": "test 1"
+        }
+      ],
+      "size": 12,
+      "location": {
+        "x": -30.16,
+        "y": 7.59
+      }
+    },
+    {
+      "title": "Projects",
+      "contents": [
+        {
+          "type": "text",
+          "value": "test 1"
+        }
+      ],
+      "size": 12,
+      "location": {
+        "x": -21.86,
+        "y": -12.15
+      }
+    },
+    {
+      "title": "???",
+      "contents": [
+        {
+          "type": "text",
+          "value": "test 1"
+        }
+      ],
+      "size": 12,
+      "location": {
+        "x": 8.62,
+        "y": -19.85
+      }
+    }
+  ]
 }

@@ -5,7 +5,11 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f; // Movement speed
-    private Vector2 moveInput; // Stores the movement input
+    public float footstepVolume = 0.07f;
+    public float footstepInterval = 0.5f; // Time between footsteps in seconds
+
+    private float footstepTimer = 0f;
+    private bool isMoving = false;
     private Vector3? destination = null; // Where the player wants to be
 
     private Rigidbody2D rb; // Rigidbody2D component for physics-based movement
@@ -34,22 +38,25 @@ public class PlayerController : MonoBehaviour
     {
         MoveCharacter();
         UpdateAnimator();
+        PlayWalkingSfx();
     }
 
     private void MoveCharacter()
     {
         // Read any manual movement inputs
-        moveInput = InputManager.InputActions.Player.Move.ReadValue<Vector2>();
+        Vector2 moveInput = InputManager.InputActions.Player.Move.ReadValue<Vector2>();
         if (moveInput != Vector2.zero) // Manual movement takes precedence
         {
             destination = null;
             // Update the player's velocity with the manual controls
             rb.velocity = new Vector2(moveInput.x * moveSpeed, moveInput.y * moveSpeed);
+            isMoving = true;
         }
         else if (destination is Vector3 dest) // Move towards the destination
         {
             Vector3 newPosition = Vector3.MoveTowards(transform.position, dest, moveSpeed * Time.fixedDeltaTime);
             rb.MovePosition(newPosition);
+            isMoving = true;
             if (Vector3.Distance(transform.position, dest) < 0.05f)
             {
                 // Once we arrive at our destination, we no longer have a destination
@@ -59,6 +66,7 @@ public class PlayerController : MonoBehaviour
         else // If no manual movements and no destination, stop moving
         {
             rb.velocity = Vector3.zero;
+            isMoving = false;
         }
     }
 
@@ -139,5 +147,21 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isWalkingWest", isWalkingWest);
         animator.SetBool("isWalkingEast", isWalkingEast);
         animator.SetBool("isIdle", isIdle);
+    }
+
+    private void PlayWalkingSfx()
+    {
+        if (!isMoving)
+        {
+            footstepTimer = 0f;
+        }
+
+        footstepTimer += Time.deltaTime;
+
+        if (footstepTimer >= footstepInterval)
+        {
+            AudioManager.Instance.PlaySfx("footstep", footstepVolume);
+            footstepTimer = 0f;
+        }
     }
 }

@@ -47,7 +47,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325f73808a93f9c4cb37f4bfbc43db8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfxPlayer: {fileID: 1648792220559924544, guid: 596530a989b5f2a4caf4ae8794bb67c1, type: 3}
+  walkingSfx: {fileID: 8300000, guid: 539ad956abc3431408be2d44830a7ee5, type: 3}
   moveSpeed: 5
+  footstepVolume: 0.07
+  footstepInterval: 0.5
 --- !u!50 &1975202824358171801
 Rigidbody2D:
   serializedVersion: 4
