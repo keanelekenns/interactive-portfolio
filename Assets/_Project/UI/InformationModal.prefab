@@ -852,5 +852,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81911de4e22e4a14091e5bf410bc6372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfxPlayer: {fileID: 1648792220559924544, guid: 596530a989b5f2a4caf4ae8794bb67c1, type: 3}
+  openSfx: {fileID: 8300000, guid: 290b35026022b9548b1137c8717408e4, type: 3}
+  closeSfx: {fileID: 8300000, guid: 6218fa9bd50044d42add0ea859820367, type: 3}
   textPrefab: {fileID: 8559955279387321954, guid: 4d135d3c6d2cc3744bda98630e632f7e, type: 3}
   imagePrefab: {fileID: 583274280212917202, guid: dc0c899517c10b84aac1aa5f54f79bbb, type: 3}

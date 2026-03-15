@@ -4,8 +4,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public AudioSource sfxPlayer;
-    public AudioClip walkingSfx;
     public float moveSpeed = 5f; // Movement speed
     public float footstepVolume = 0.07f;
     public float footstepInterval = 0.5f; // Time between footsteps in seconds
@@ -162,7 +160,7 @@ public class PlayerController : MonoBehaviour
 
         if (footstepTimer >= footstepInterval)
         {
-            sfxPlayer.PlayOneShot(walkingSfx, footstepVolume);
+            AudioManager.Instance.PlaySfx("footstep", footstepVolume);
             footstepTimer = 0f;
         }
     }

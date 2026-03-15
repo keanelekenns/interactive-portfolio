@@ -32,5 +32,6 @@ public class Section : MonoBehaviour
     public void OpenModal()
     {
         informationModal.gameObject.SetActive(true);
+        AudioManager.Instance.PlaySfx("clickIn");
     }
 }

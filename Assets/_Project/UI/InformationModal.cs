@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class InformationModal : MonoBehaviour
 {
+
     [Header("Prefabs")]
     public TextMeshProUGUI textPrefab;
     public Image imagePrefab;
@@ -42,6 +43,7 @@ public class InformationModal : MonoBehaviour
     private void ExitModal()
     {
         gameObject.SetActive(false);
+        AudioManager.Instance.PlaySfx("clickOut");
     }
 
     public void AddContents(List<Content> contents)
