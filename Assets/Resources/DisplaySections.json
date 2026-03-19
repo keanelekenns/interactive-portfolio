@@ -5,7 +5,27 @@
       "contents": [
         {
           "type": "text",
-          "value": "test 1"
+          "value": "[University of Victoria (UVic)](link), British Columbia, Canada."
+        },
+        {
+          "type": "text",
+          "value": "Department: Computer Science and Engineering"
+        },
+        {
+          "type": "text",
+          "value": "Master of Science (2021 - 2023)"
+        },
+        {
+          "type": "text",
+          "value": "  - Program: Computer Science (Co-op)\n  - GPA: 9.0 (based on UVic's 9.0-point grading scale)"
+        },
+        {
+          "type": "text",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "value": "test\nnewlines"
         }
       ],
       "size": 12,
