@@ -5,7 +5,7 @@
       "contents": [
         {
           "type": "text",
-          "value": "[University of Victoria (UVic)](link), British Columbia, Canada."
+          "value": "<link=\"https://www.uvic.ca/\"><color=#6CC1FC>University of Victoria (UVic)</color></link>, British Columbia, Canada."
         },
         {
           "type": "text",
@@ -17,15 +17,15 @@
         },
         {
           "type": "text",
-          "value": "  - Program: Computer Science (Co-op)\n  - GPA: 9.0 (based on UVic's 9.0-point grading scale)"
+          "value": "  - Program: Computer Science (Co-op)\n  - GPA: 9.0 (based on UVic's 9.0-point grading scale)\n"
         },
         {
           "type": "text",
-          "value": ""
+          "value": "Bachelor of Science with Distinction (2016 - 2021)"
         },
         {
           "type": "text",
-          "value": "test\nnewlines"
+          "value": "  - Program: Honours in Computer Science and Minor in Mathematics (Co-op)\n  - GPA: 8.85"
         }
       ],
       "size": 12,
