@@ -26,6 +26,38 @@
         {
           "type": "text",
           "value": "  - Program: Honours in Computer Science and Minor in Mathematics (Co-op)\n  - GPA: 8.85"
+        },
+        {
+          "type": "text",
+          "value": "\nAwards"
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://www.uvic.ca/graduatestudies/finances/uvic-scholarships/index.php\"><color=#6CC1FC>UVic Fellowship (2021)</color></link>\nAwarded to graduate students of high academic standing."
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://www.uvic.ca/ecs/about/deans-office/\"><color=#6CC1FC>Department of Computer Science Honours Graduation Medal (2021)</color></link>\nAwarded to the top graduating student in the Computer Science Honours program."
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><color=#6CC1FC>UVic President’s Scholarship (2020)</color></link>\nAwarded to academically outstanding undergraduate students in all faculties."
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><color=#6CC1FC>UVic Undergraduate Scholarship (2020)</color></link>\nAwarded to academically outstanding entering or continuing undergraduate students."
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://www.uvic.ca/safa/scholarships/in-course-scholarships/sant-s-aulakh-memorial-scholarship.php\"><color=#6CC1FC>UVic Sant S. Aulakh Memorial Scholarship (2019)</color></link>\nAwarded to a student with the highest grade-point-average in the third year and entering the fourth year in the Faculty of Engineering."
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><color=#6CC1FC>UVic Excellence Scholarship (2016 – 2019)</color></link>\nRenewable entrance scholarship awarded to academically outstanding students."
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://www.uvic.ca/science/assets/docs/deans_lists/DeansList2016-17.pdf\"><color=#6CC1FC>UVic Dean’s List (2016/17)</color></link>\nRecognizes top 10% of students in the Faculty of Science according to their year."
         }
       ],
       "size": 12,
@@ -39,39 +71,15 @@
       "contents": [
         {
           "type": "text",
-          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+          "value": "I am a graduate computer scientist and mathematician from the University of Victoria in British Columbia, Canada. I love to design and develop efficient solutions to complex problems, I believe simple solutions are often the best ones, and I believe communication and understanding one’s goals are critical parts of being an effective team member."
         },
         {
           "type": "text",
-          "value": "test 2"
-        },
-        {
-          "type": "text",
-          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
+          "value": "I desire to produce high quality work that sets the bar and contributes to society in a meaningful way. I am always seeking to understand concepts and systems at a deeper level, and I am ready and eager to learn from those around me. Overall, I want every person, system, and company I work with to be better off because of the encounter. I appreciate you taking the time to read about me, and I look forward to meeting you."
         },
         {
           "type": "image",
           "value": "profilepic"
-        },
-        {
-          "type": "text",
-          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-        },
-        {
-          "type": "text",
-          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-        },
-        {
-          "type": "text",
-          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-        },
-        {
-          "type": "text",
-          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
-        },
-        {
-          "type": "text",
-          "value": "lorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a testlorem ipsum testing 1234 this is just a test lorem ipsum testing 1234 this is just a test"
         }
       ],
       "size": 12,
@@ -85,7 +93,87 @@
       "contents": [
         {
           "type": "text",
-          "value": "test 1"
+          "value": "Cloud Software Developer"
+        },
+        {
+          "type": "text",
+          "value": "AXYS Technologies Inc. Victoria, BC. May 2022 – Present"
+        },
+        {
+          "type": "text",
+          "value": "    - Full stack development of a data standardization pipeline with an API and front-end management portal.\n        - Implemented with ASP.NET Core w/ Telerik, Python, FastApi, SqlAlchemy, Alembic, and Redis among others.\n        - Provisioned with IaC using AWS CDK for Python.\n    - Engaged in system design, tool exploration, code reviews and agile processes such as stakeholder reviews."
+        },
+        {
+          "type": "text",
+          "value": "Teaching Assistant"
+        },
+        {
+          "type": "text",
+          "value": "University of Victoria. Victoria, BC. Sep. 2019 – Apr. 2022"
+        },
+        {
+          "type": "text",
+          "value": "    - Taught students the fundamentals of programming in C as a lab instructor and marker.\n    - Marked and gave feedback on assignments for Algorithms and Data Structures course.\n    - Taught business students the fundamentals of computing (topics included SQL, JavaScript, CSS, and HTML)."
+        },
+        {
+          "type": "text",
+          "value": "Software Developer (Co-op)"
+        },
+        {
+          "type": "text",
+          "value": "National Research Council of Canada: Herzberg Astronomy and Astrophysics Research Centre (Software Group) Victoria, BC. Jan. 2021 – Sep. 2021"
+        },
+        {
+          "type": "text",
+          "value": "    - Worked in a team of seven to design, develop, and test HEART, a toolkit written in C that facilitates the development of real time control systems for adaptive optics in large telescopes across the world.\n    - Contributed to a large project with many moving parts requiring concurrent programming, careful memory management, and object-oriented programming."
+        },
+        {
+          "type": "text",
+          "value": "Web Application Developer (Co-op)"
+        },
+        {
+          "type": "text",
+          "value": "BC Ministry of Social Development and Poverty Reduction: Research Branch, Victoria, BC. May. 2020 – Aug. 2020"
+        },
+        {
+          "type": "text",
+          "value": "    - Built a web application for data visualization using React and implemented a full test suite with Jest.\n    - Performed full stack development, continuous code reviews and agile development processes."
+        },
+        {
+          "type": "text",
+          "value": "Quality Assurance Analyst (Co-op)"
+        },
+        {
+          "type": "text",
+          "value": "Latitude Geographics (VertiGIS North America). Victoria, BC. May. 2019 – Aug. 2019"
+        },
+        {
+          "type": "text",
+          "value": "    - Performed regression and manual feature testing as well as developed an automated testing suite.\n    - Communicated frequently with developer and support teams to ensure top product quality."
+        },
+        {
+          "type": "text",
+          "value": "Data Analyst (Co-op)"
+        },
+        {
+          "type": "text",
+          "value": "Slegg Building Materials. Victoria, BC. May. 2018 – Aug. 2018"
+        },
+        {
+          "type": "text",
+          "value": "    - Summarized large reports on customers, inventory, and sales."
+        },
+        {
+          "type": "text",
+          "value": "Student Painting Branch Manager"
+        },
+        {
+          "type": "text",
+          "value": "Scholars Edge Painting. Victoria, BC. Oct. 2016 – Sep. 2017"
+        },
+        {
+          "type": "text",
+          "value": "    - Sought for, interviewed, hired, trained, and coordinated employees on a tight schedule.\n    - Sold and produced over $77,000 worth of painting contracts from May to August of 2017."
         }
       ],
       "size": 12,
@@ -99,7 +187,39 @@
       "contents": [
         {
           "type": "text",
-          "value": "test 1"
+          "value": "Publications"
+        },
+        {
+          "type": "text",
+          "value": "Identifying Autism Spectrum Disorder in fMRI Brain Scans"
+        },
+        {
+          "type": "text",
+          "value": "<link=\"http://hdl.handle.net/1828/14937\"><color=#6CC1FC>Thesis</color></link>"
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://doi.org/10.1109/IISA59645.2023.10345904\"><color=#6CC1FC>2023 14th International Conference on Information, Intelligence, Systems & Applications (IISA)</color></link>"
+        },
+        {
+          "type": "text",
+          "value": "Two approaches to survival analysis of open source Python projects"
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://dl.acm.org/doi/abs/10.1145/3524610.3527871\"><color=#6CC1FC>ICPC ’22: 30th International Conference on Program Comprehension</color></link>"
+        },
+        {
+          "type": "text",
+          "value": "Triangle Enumeration for Billion-Scale Graphs in RDBMS"
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://doi.org/10.1007/978-3-030-75075-6_13\"><color=#6CC1FC>International Conference on Advanced Information Networking and Applications</color></link>"
+        },
+        {
+          "type": "text",
+          "value": "Projects"
         }
       ],
       "size": 12,
@@ -113,7 +233,7 @@
       "contents": [
         {
           "type": "text",
-          "value": "test 1"
+          "value": "Stay tuned..."
         }
       ],
       "size": 12,
