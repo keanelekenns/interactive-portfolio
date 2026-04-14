@@ -5,7 +5,11 @@
       "contents": [
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/\"><color=#6CC1FC>University of Victoria (UVic)</color></link>, British Columbia, Canada."
+          "value": "<style=\"Title\">Education</style>"
+        },
+        {
+          "type": "text",
+          "value": "<link=\"https://www.uvic.ca/\"><style=\"Link\">University of Victoria (UVic)</style></link>, British Columbia, Canada."
         },
         {
           "type": "text",
@@ -17,7 +21,7 @@
         },
         {
           "type": "text",
-          "value": "  - Program: Computer Science (Co-op)\n  - GPA: 9.0 (based on UVic's 9.0-point grading scale)\n"
+          "value": "<style=\"Bullet\">Program: Computer Science (Co-op)</style><style=\"Bullet\">GPA: 9.0 (based on UVic's 9.0-point grading scale)</style>"
         },
         {
           "type": "text",
@@ -25,39 +29,39 @@
         },
         {
           "type": "text",
-          "value": "  - Program: Honours in Computer Science and Minor in Mathematics (Co-op)\n  - GPA: 8.85"
+          "value": "<style=\"Bullet\">Program: Honours in Computer Science and Minor in Mathematics (Co-op)</style><style=\"Bullet\">GPA: 8.85</style>"
         },
         {
           "type": "text",
-          "value": "\nAwards"
+          "value": "<style=\"Title\">Awards</style>"
         },
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/graduatestudies/finances/uvic-scholarships/index.php\"><color=#6CC1FC>UVic Fellowship (2021)</color></link>\nAwarded to graduate students of high academic standing."
+          "value": "<link=\"https://www.uvic.ca/graduatestudies/finances/uvic-scholarships/index.php\"><style=\"Link\">UVic Fellowship (2021)</style></link>\nAwarded to graduate students of high academic standing."
         },
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/ecs/about/deans-office/\"><color=#6CC1FC>Department of Computer Science Honours Graduation Medal (2021)</color></link>\nAwarded to the top graduating student in the Computer Science Honours program."
+          "value": "<link=\"https://www.uvic.ca/ecs/about/deans-office/\"><style=\"Link\">Department of Computer Science Honours Graduation Medal (2021)</style></link>\nAwarded to the top graduating student in the Computer Science Honours program."
         },
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><color=#6CC1FC>UVic President’s Scholarship (2020)</color></link>\nAwarded to academically outstanding undergraduate students in all faculties."
+          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><style=\"Link\">UVic President’s Scholarship (2020)</style></link>\nAwarded to academically outstanding undergraduate students in all faculties."
         },
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><color=#6CC1FC>UVic Undergraduate Scholarship (2020)</color></link>\nAwarded to academically outstanding entering or continuing undergraduate students."
+          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><style=\"Link\">UVic Undergraduate Scholarship (2020)</style></link>\nAwarded to academically outstanding entering or continuing undergraduate students."
         },
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/safa/scholarships/in-course-scholarships/sant-s-aulakh-memorial-scholarship.php\"><color=#6CC1FC>UVic Sant S. Aulakh Memorial Scholarship (2019)</color></link>\nAwarded to a student with the highest grade-point-average in the third year and entering the fourth year in the Faculty of Engineering."
+          "value": "<link=\"https://www.uvic.ca/safa/scholarships/in-course-scholarships/sant-s-aulakh-memorial-scholarship.php\"><style=\"Link\">UVic Sant S. Aulakh Memorial Scholarship (2019)</style></link>\nAwarded to a student with the highest grade-point-average in the third year and entering the fourth year in the Faculty of Engineering."
         },
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><color=#6CC1FC>UVic Excellence Scholarship (2016 – 2019)</color></link>\nRenewable entrance scholarship awarded to academically outstanding students."
+          "value": "<link=\"https://www.uvic.ca/registrar/safa/in-course-scholarships/no-application/index.php\"><style=\"Link\">UVic Excellence Scholarship (2016 – 2019)</style></link>\nRenewable entrance scholarship awarded to academically outstanding students."
         },
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/science/assets/docs/deans_lists/DeansList2016-17.pdf\"><color=#6CC1FC>UVic Dean’s List (2016/17)</color></link>\nRecognizes top 10% of students in the Faculty of Science according to their year."
+          "value": "<link=\"https://www.uvic.ca/science/assets/docs/deans_lists/DeansList2016-17.pdf\"><style=\"Link\">UVic Dean’s List (2016/17)</style></link>\nRecognizes top 10% of students in the Faculty of Science according to their year."
         }
       ],
       "size": 12,
@@ -195,11 +199,11 @@
         },
         {
           "type": "text",
-          "value": "<link=\"http://hdl.handle.net/1828/14937\"><color=#6CC1FC>Thesis</color></link>"
+          "value": "<link=\"http://hdl.handle.net/1828/14937\"><style=\"Link\">Thesis</style></link>"
         },
         {
           "type": "text",
-          "value": "<link=\"https://doi.org/10.1109/IISA59645.2023.10345904\"><color=#6CC1FC>2023 14th International Conference on Information, Intelligence, Systems & Applications (IISA)</color></link>"
+          "value": "<link=\"https://doi.org/10.1109/IISA59645.2023.10345904\"><style=\"Link\">2023 14th International Conference on Information, Intelligence, Systems & Applications (IISA)</style></link>"
         },
         {
           "type": "text",
@@ -207,7 +211,7 @@
         },
         {
           "type": "text",
-          "value": "<link=\"https://dl.acm.org/doi/abs/10.1145/3524610.3527871\"><color=#6CC1FC>ICPC ’22: 30th International Conference on Program Comprehension</color></link>"
+          "value": "<link=\"https://dl.acm.org/doi/abs/10.1145/3524610.3527871\"><style=\"Link\">ICPC ’22: 30th International Conference on Program Comprehension</style></link>"
         },
         {
           "type": "text",
@@ -215,7 +219,7 @@
         },
         {
           "type": "text",
-          "value": "<link=\"https://doi.org/10.1007/978-3-030-75075-6_13\"><color=#6CC1FC>International Conference on Advanced Information Networking and Applications</color></link>"
+          "value": "<link=\"https://doi.org/10.1007/978-3-030-75075-6_13\"><style=\"Link\">International Conference on Advanced Information Networking and Applications</style></link>"
         },
         {
           "type": "text",

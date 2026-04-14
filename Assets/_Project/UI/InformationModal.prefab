@@ -258,7 +258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7739642262183684816}
   - component: {fileID: 8809377177771613033}
-  - component: {fileID: 813122987264220345}
+  - component: {fileID: 874081998109161983}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -304,14 +304,14 @@ MonoBehaviour:
     m_Bottom: 75
   m_ChildAlignment: 4
   m_Spacing: 50
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
---- !u!114 &813122987264220345
+--- !u!114 &874081998109161983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
