@@ -9,27 +9,15 @@
         },
         {
           "type": "text",
-          "value": "<link=\"https://www.uvic.ca/\"><style=\"Link\">University of Victoria (UVic)</style></link>, British Columbia, Canada."
+          "value": "<link=\"https://www.uvic.ca/\"><style=\"Link\">University of Victoria (UVic)</style></link>, British Columbia, Canada.\nDepartment: Computer Science and Engineering"
         },
         {
           "type": "text",
-          "value": "Department: Computer Science and Engineering"
+          "value": "Master of Science (2021 - 2023)\n<style=\"Bullet\">Program: Computer Science (Co-op)</style><style=\"Bullet\">GPA: 9.0 (based on UVic's 9.0-point grading scale)</style>"
         },
         {
           "type": "text",
-          "value": "Master of Science (2021 - 2023)"
-        },
-        {
-          "type": "text",
-          "value": "<style=\"Bullet\">Program: Computer Science (Co-op)</style><style=\"Bullet\">GPA: 9.0 (based on UVic's 9.0-point grading scale)</style>"
-        },
-        {
-          "type": "text",
-          "value": "Bachelor of Science with Distinction (2016 - 2021)"
-        },
-        {
-          "type": "text",
-          "value": "<style=\"Bullet\">Program: Honours in Computer Science and Minor in Mathematics (Co-op)</style><style=\"Bullet\">GPA: 8.85</style>"
+          "value": "Bachelor of Science with Distinction (2016 - 2021)\n<style=\"Bullet\">Program: Honours in Computer Science and Minor in Mathematics (Co-op)</style><style=\"Bullet\">GPA: 8.85</style>"
         },
         {
           "type": "text",
