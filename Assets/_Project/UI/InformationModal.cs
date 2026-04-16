@@ -80,6 +80,8 @@ public class InformationModal : MonoBehaviour
     {
         TextMeshProUGUI textObj = Instantiate(textPrefab, contentParent);
         textObj.text = textValue;
+        // TODO: Would be nice to only add to text containing <link> tags
+        textObj.gameObject.AddComponent<Hyperlink>();
         textObj.gameObject.SetActive(true);
     }
 
