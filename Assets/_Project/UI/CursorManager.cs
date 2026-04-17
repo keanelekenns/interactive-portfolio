@@ -4,7 +4,8 @@ public class CursorManager : MonoBehaviour
 {
     public Texture2D defaultCursor;
     public Texture2D linkCursor;
-    public Vector2 hotspot = Vector2.zero;
+    public Vector2 defaultHotspot;
+    public Vector2 linkHotspot;
 
     public static CursorManager Instance { get; private set; }
 
@@ -16,11 +17,11 @@ public class CursorManager : MonoBehaviour
 
     public void SetLinkCursor()
     {
-        Cursor.SetCursor(linkCursor, hotspot, CursorMode.Auto);
+        Cursor.SetCursor(linkCursor, linkHotspot, CursorMode.Auto);
     }
 
     public void ResetCursor()
     {
-        Cursor.SetCursor(defaultCursor, hotspot, CursorMode.Auto);
+        Cursor.SetCursor(defaultCursor, defaultHotspot, CursorMode.Auto);
     }
 }
