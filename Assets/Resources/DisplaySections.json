@@ -63,15 +63,43 @@
       "contents": [
         {
           "type": "text",
-          "value": "I am a graduate computer scientist and mathematician from the University of Victoria in British Columbia, Canada. I love to design and develop efficient solutions to complex problems, I believe simple solutions are often the best ones, and I believe communication and understanding one’s goals are critical parts of being an effective team member."
+          "value": "<style=\"Title\">Thoughts on AI</style>"
         },
         {
           "type": "text",
-          "value": "I desire to produce high quality work that sets the bar and contributes to society in a meaningful way. I am always seeking to understand concepts and systems at a deeper level, and I am ready and eager to learn from those around me. Overall, I want every person, system, and company I work with to be better off because of the encounter. I appreciate you taking the time to read about me, and I look forward to meeting you."
+          "value": "I completed my post-secondary education before the mainstream adoption of large language models such as ChatGPT. As a result, I developed a strong foundation in computer science and mathematics, and gained early professional experience without relying on AI-assisted tools."
         },
         {
-          "type": "image",
-          "value": "profilepic"
+          "type": "text",
+          "value": "I view modern AI as highly capable and broadly useful, especially within software development. However, its effectiveness depends on thoughtful application rather than overreliance. Quality work still requires judgment, problem-solving, and accountability."
+        },
+        {
+          "type": "text",
+          "value": "As AI continues to shape the role of developers, I actively incorporate it where it adds value while maintaining ownership of outcomes. I approach it as a tool to enhance productivity and insight, not a substitute for critical thinking."
+        },
+        {
+          "type": "text",
+          "value": "<style=\"Title\">Who am I?</style>"
+        },
+        {
+          "type": "text",
+          "value": "I'm proud to be a follower of Jesus Christ. He has made me a better man in every aspect of life. Though I'm far from perfect, I'm striving to be more like him. That means I'm a hard worker and an honest worker. When life gets tough, I keep showing up because my life is built on a solid foundation."
+        },
+        {
+          "type": "text",
+          "value": "I'm happily married to my highschool sweetheart who is both beautiful and brilliant and pushes me to be a better man. We met as part of our school's student council, and we're on this adventure of life together."
+        },
+        {
+          "type": "text",
+          "value": "Oh, and fair warning, I like to laugh a lot, so if you spend too much time with me, you may be in danger of thinking you are funnier than you really are."
+        },
+        {
+          "type": "text",
+          "value": "<style=\"Title\">Hobbies & Extracurriculars</style>"
+        },
+        {
+          "type": "text",
+          "value": "Wow, you made it this far? Impressive.\nSome of my hobbies include:\n<style=\"Bullet\">Shoveling snow (living in Saskatoon SK for my wife's schooling)</style><style=\"Bullet\">Playing and making video games (this website is meant as a learning tool)</style><style=\"Bullet\">Bouldering (i.e. climbing plastic rocks, and occasional real ones)</style><style=\"Bullet\">Calisthenics because I'm too cheap to lift weights (currently working on handstands)</style><style=\"Bullet\">Volunteering as a youth leader (makes me feel old, but keeps me up to date with what the kids are doing)</style><style=\"Bullet\">Not a hobby, but I was part of the crew on a 70ft long, concrete hulled sail boat that circumnavigated Vancouver Island when I was 16 years old. It was quite the adventure.</style><style=\"Bullet\">In the future I'd like to learn archery (compound bows), get more experience with firearms, and get into backpacking/bushcraft.</style>"
         }
       ],
       "size": 12,
