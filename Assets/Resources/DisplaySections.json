@@ -113,87 +113,121 @@
       "contents": [
         {
           "type": "text",
-          "value": "Cloud Software Developer"
+          "value": "<style=\"Title\">Cloud Software Developer</style>"
         },
         {
           "type": "text",
-          "value": "AXYS Technologies Inc. Victoria, BC. May 2022 – Present"
+          "value": "<align=center>May 2022 – Present</align>"
         },
         {
           "type": "text",
-          "value": "    - Full stack development of a data standardization pipeline with an API and front-end management portal.\n        - Implemented with ASP.NET Core w/ Telerik, Python, FastApi, SqlAlchemy, Alembic, and Redis among others.\n        - Provisioned with IaC using AWS CDK for Python.\n    - Engaged in system design, tool exploration, code reviews and agile processes such as stakeholder reviews."
+          "value": "AXYS Technologies Inc. Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Teaching Assistant"
+          "value": "<style=\"Bullet\">Full stack development of a data standardization pipeline with an API and front-end management portal.</style><style=\"Bullet\">Implemented with ASP.NET Core w/ Telerik, Python, FastApi, SqlAlchemy, Alembic, and Redis among others.</style><style=\"Bullet\">Provisioned with IaC using AWS CDK for Python.</style><style=\"Bullet\">Engaged in system design, tool exploration, code reviews, and agile processes such as stakeholder reviews.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Teaching Assistant</style>"
         },
         {
           "type": "text",
-          "value": "University of Victoria. Victoria, BC. Sep. 2019 – Apr. 2022"
+          "value": "<align=center>Sep. 2019 – Apr. 2022</align>"
         },
         {
           "type": "text",
-          "value": "    - Taught students the fundamentals of programming in C as a lab instructor and marker.\n    - Marked and gave feedback on assignments for Algorithms and Data Structures course.\n    - Taught business students the fundamentals of computing (topics included SQL, JavaScript, CSS, and HTML)."
+          "value": "University of Victoria. Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Software Developer (Co-op)"
+          "value": "<style=\"Bullet\">Taught students the fundamentals of programming in C as a lab instructor and marker.</style><style=\"Bullet\">Marked and gave feedback on assignments for Algorithms and Data Structures.</style><style=\"Bullet\">Taught business students the fundamentals of computing, including SQL, JavaScript, CSS, and HTML.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Software Developer (Co-op)</style>"
         },
         {
           "type": "text",
-          "value": "National Research Council of Canada: Herzberg Astronomy and Astrophysics Research Centre (Software Group) Victoria, BC. Jan. 2021 – Sep. 2021"
+          "value": "<align=center>Jan. 2021 – Sep. 2021</align>"
         },
         {
           "type": "text",
-          "value": "    - Worked in a team of seven to design, develop, and test HEART, a toolkit written in C that facilitates the development of real time control systems for adaptive optics in large telescopes across the world.\n    - Contributed to a large project with many moving parts requiring concurrent programming, careful memory management, and object-oriented programming."
+          "value": "National Research Council of Canada: Herzberg Astronomy and Astrophysics Research Centre (Software Group). Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Web Application Developer (Co-op)"
+          "value": "<style=\"Bullet\">Worked in a team of seven to design, develop, and test HEART, a toolkit written in C that facilitates the development of real-time control systems for adaptive optics in large telescopes across the world.</style><style=\"Bullet\">Contributed to a large project with many moving parts requiring concurrent programming, careful memory management, and object-oriented programming.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Web Application Developer (Co-op)</style>"
         },
         {
           "type": "text",
-          "value": "BC Ministry of Social Development and Poverty Reduction: Research Branch, Victoria, BC. May. 2020 – Aug. 2020"
+          "value": "<align=center>May 2020 – Aug. 2020</align>"
         },
         {
           "type": "text",
-          "value": "    - Built a web application for data visualization using React and implemented a full test suite with Jest.\n    - Performed full stack development, continuous code reviews and agile development processes."
+          "value": "BC Ministry of Social Development and Poverty Reduction: Research Branch. Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Quality Assurance Analyst (Co-op)"
+          "value": "<style=\"Bullet\">Built a web application for data visualization using React and implemented a full test suite with Jest.</style><style=\"Bullet\">Performed full-stack development, continuous code reviews, and agile development processes.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Quality Assurance Analyst (Co-op)</style>"
         },
         {
           "type": "text",
-          "value": "Latitude Geographics (VertiGIS North America). Victoria, BC. May. 2019 – Aug. 2019"
+          "value": "<align=center>May 2019 – Aug. 2019</align>"
         },
         {
           "type": "text",
-          "value": "    - Performed regression and manual feature testing as well as developed an automated testing suite.\n    - Communicated frequently with developer and support teams to ensure top product quality."
+          "value": "Latitude Geographics (VertiGIS North America). Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Data Analyst (Co-op)"
+          "value": "<style=\"Bullet\">Performed regression and manual feature testing as well as developed an automated testing suite.</style><style=\"Bullet\">Communicated frequently with developer and support teams to ensure top product quality.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Data Analyst (Co-op)</style>"
         },
         {
           "type": "text",
-          "value": "Slegg Building Materials. Victoria, BC. May. 2018 – Aug. 2018"
+          "value": "<align=center>May 2018 – Aug. 2018</align>"
         },
         {
           "type": "text",
-          "value": "    - Summarized large reports on customers, inventory, and sales."
+          "value": "Slegg Building Materials. Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Student Painting Branch Manager"
+          "value": "<style=\"Bullet\">Summarized large reports on customers, inventory, and sales.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Student Painting Branch Manager</style>"
         },
         {
           "type": "text",
-          "value": "Scholars Edge Painting. Victoria, BC. Oct. 2016 – Sep. 2017"
+          "value": "<align=center>Oct. 2016 – Sep. 2017</align>"
         },
         {
           "type": "text",
-          "value": "    - Sought for, interviewed, hired, trained, and coordinated employees on a tight schedule.\n    - Sold and produced over $77,000 worth of painting contracts from May to August of 2017."
+          "value": "Scholars Edge Painting. Victoria, BC."
+        },
+        {
+          "type": "text",
+          "value": "<style=\"Bullet\">Sought for, interviewed, hired, trained, and coordinated employees on a tight schedule.</style><style=\"Bullet\">Sold and produced over $77,000 worth of painting contracts from May to August 2017.</style>"
         }
       ],
       "size": 12,
