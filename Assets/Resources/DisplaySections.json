@@ -207,7 +207,7 @@
       "contents": [
         {
           "type": "text",
-          "value": "Publications"
+          "value": "<style=\"Title\">Publications</style>"
         },
         {
           "type": "text",
@@ -239,7 +239,19 @@
         },
         {
           "type": "text",
-          "value": "Projects"
+          "value": "<style=\"Title\">Projects</style>"
+        },
+        {
+          "type": "text",
+          "value": "You're looking at one! This website-game has been a work in progress for a while. After experimenting with Unity and building a few prototypes, I decided it was time to finish a project. The goal: create an interactive portfolio to help advance my career. A major inspiration was <link=\"https://bruno-simon.com/\"><style=\"Link\">Bruno Simon's portfolio site</style></link>."
+        },
+        {
+          "type": "text",
+          "value": "To see the following projects, visit my <link=\"https://github.com/keanelekenns\"><style=\"Link\">GitHub</style></link> and <link=\"https://observablehq.com/@keanelekenns\"><style=\"Link\">ObservableHQ</style></link> profiles."
+        },
+        {
+          "type": "text",
+          "value": "<style=\"Bullet\">Full stack web application: <link=\"https://github.com/devxp-ca/devxp\"><style=\"Link\">DevXP</style></link> (TypeScript, Node.js, React)</style><style=\"Bullet\"><link=\"https://github.com/keanelekenns/KE_compiler\"><style=\"Link\">Compiler</style></link> for a C-like language (Java)</style><style=\"Bullet\"><link=\"https://github.com/keanelekenns/microprocessor-simulation\"><style=\"Link\">Simulation for Intel 8008 microprocessor</style></link> (C)</style><style=\"Bullet\"><link=\"https://github.com/keanelekenns/misc-projects/tree/master/smartHomeApp\"><style=\"Link\">Mock Smart Home App</style></link> (Java)</style><style=\"Bullet\"><link=\"https://github.com/keanelekenns/non-linear-dynamics-and-chaos\"><style=\"Link\">Efficient phase portrait and orbit diagram plotting functions</style></link> (MATLAB)</style><style=\"Bullet\"><link=\"https://github.com/keanelekenns/cube-slider\"><style=\"Link\">Unity game</style></link> (C#)</style><style=\"Bullet\"><link=\"https://github.com/keanelekenns/starter-snake-node\"><style=\"Link\">Battlesnake</style></link> (Node.js)</style><style=\"Bullet\">Basic <link=\"https://github.com/keanelekenns/kapish-commandLineInterpreter\"><style=\"Link\">command line interpreter</style></link> (C)</style><style=\"Bullet\">Pseudo <link=\"https://github.com/keanelekenns/file-system\"><style=\"Link\">file system</style></link> (C)</style><style=\"Bullet\"><link=\"https://github.com/keanelekenns/online-education-database-design\"><style=\"Link\">Database schema design</style></link> (PostgreSQL)</style><style=\"Bullet\"><link=\"https://github.com/keanelekenns/concurrent-programming\"><style=\"Link\">Concurrent programming</style></link> (C with Pthreads)</style><style=\"Bullet\"><link=\"https://observablehq.com/@keanelekenns/zoomable-treemap-of-bcea-data\"><style=\"Link\">Zoomable Treemap</style></link> (D3.js & JavaScript)</style><style=\"Bullet\">Internal data pipeline and management portal (Python, AWS CDK, ASP.NET Core)</style><style=\"Bullet\">Internal BC Ministry of SDPR Research Branch website for data visualizations (JavaScript & React)</style><style=\"Bullet\"><link=\"https://nrc-publications.canada.ca/eng/view/object/?id=58fb69f4-6e92-4c08-bb00-459c91924fb5\"><style=\"Link\">HEART</style></link> (C)</style>"
         }
       ],
       "size": 12,
