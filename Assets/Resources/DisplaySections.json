@@ -113,87 +113,121 @@
       "contents": [
         {
           "type": "text",
-          "value": "Cloud Software Developer"
+          "value": "<style=\"Title\">Cloud Software Developer</style>"
         },
         {
           "type": "text",
-          "value": "AXYS Technologies Inc. Victoria, BC. May 2022 – Present"
+          "value": "<align=center>May 2022 – Present</align>"
         },
         {
           "type": "text",
-          "value": "    - Full stack development of a data standardization pipeline with an API and front-end management portal.\n        - Implemented with ASP.NET Core w/ Telerik, Python, FastApi, SqlAlchemy, Alembic, and Redis among others.\n        - Provisioned with IaC using AWS CDK for Python.\n    - Engaged in system design, tool exploration, code reviews and agile processes such as stakeholder reviews."
+          "value": "AXYS Technologies Inc. Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Teaching Assistant"
+          "value": "<style=\"Bullet\">Resumed development of a business-critical application that had received no source-controlled changes for nearly a decade, upgrading legacy .NET Framework and installer infrastructure and delivering new releases to Windows Server environments processing live production data feeds.</style><style=\"Bullet\">Designed, developed, and maintained a full-stack data standardization platform, including data ingestion pipelines, APIs, and a management portal using ASP.NET Core, Python, AWS, and related technologies.</style><style=\"Bullet\">Exposed a legacy production API to external clients through Azure API Management, enabling usage monitoring, access control, and billing while addressing security vulnerabilities in request handling.</style><style=\"Bullet\">Contributed to system design, code reviews, technology evaluation, deployment planning, and stakeholder collaboration across multiple projects.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Teaching Assistant</style>"
         },
         {
           "type": "text",
-          "value": "University of Victoria. Victoria, BC. Sep. 2019 – Apr. 2022"
+          "value": "<align=center>Sep. 2019 – Apr. 2022</align>"
         },
         {
           "type": "text",
-          "value": "    - Taught students the fundamentals of programming in C as a lab instructor and marker.\n    - Marked and gave feedback on assignments for Algorithms and Data Structures course.\n    - Taught business students the fundamentals of computing (topics included SQL, JavaScript, CSS, and HTML)."
+          "value": "University of Victoria. Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Software Developer (Co-op)"
+          "value": "<style=\"Bullet\">Instructed and supported students in foundational C programming as a lab instructor and course marker.</style><style=\"Bullet\">Evaluated and provided feedback on assignments for Algorithms and Data Structures.</style><style=\"Bullet\">Taught business students the fundamentals of computing, including SQL, JavaScript, CSS, and HTML.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Software Developer (Co-op)</style>"
         },
         {
           "type": "text",
-          "value": "National Research Council of Canada: Herzberg Astronomy and Astrophysics Research Centre (Software Group) Victoria, BC. Jan. 2021 – Sep. 2021"
+          "value": "<align=center>Jan. 2021 – Sep. 2021</align>"
         },
         {
           "type": "text",
-          "value": "    - Worked in a team of seven to design, develop, and test HEART, a toolkit written in C that facilitates the development of real time control systems for adaptive optics in large telescopes across the world.\n    - Contributed to a large project with many moving parts requiring concurrent programming, careful memory management, and object-oriented programming."
+          "value": "National Research Council of Canada: Herzberg Astronomy and Astrophysics Research Centre (Software Group). Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Web Application Developer (Co-op)"
+          "value": "<style=\"Bullet\">Developed and tested HEART, a C-based toolkit for real-time control systems used in adaptive optics for large telescopes.</style><style=\"Bullet\">Worked on a large, multi-component system requiring concurrent programming, careful memory management, and collaboration across a team of engineers.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Web Application Developer (Co-op)</style>"
         },
         {
           "type": "text",
-          "value": "BC Ministry of Social Development and Poverty Reduction: Research Branch, Victoria, BC. May. 2020 – Aug. 2020"
+          "value": "<align=center>May 2020 – Aug. 2020</align>"
         },
         {
           "type": "text",
-          "value": "    - Built a web application for data visualization using React and implemented a full test suite with Jest.\n    - Performed full stack development, continuous code reviews and agile development processes."
+          "value": "BC Ministry of Social Development and Poverty Reduction: Research Branch. Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Quality Assurance Analyst (Co-op)"
+          "value": "<style=\"Bullet\">Built a React-based web application for data visualization and implemented a Jest test suite.</style><style=\"Bullet\">Contributed to full-stack development, code reviews, and agile development practices.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Quality Assurance Analyst (Co-op)</style>"
         },
         {
           "type": "text",
-          "value": "Latitude Geographics (VertiGIS North America). Victoria, BC. May. 2019 – Aug. 2019"
+          "value": "<align=center>May 2019 – Aug. 2019</align>"
         },
         {
           "type": "text",
-          "value": "    - Performed regression and manual feature testing as well as developed an automated testing suite.\n    - Communicated frequently with developer and support teams to ensure top product quality."
+          "value": "Latitude Geographics (VertiGIS North America). Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Data Analyst (Co-op)"
+          "value": "<style=\"Bullet\">Performed manual regression and feature testing and contributed to an automated testing suite.</style><style=\"Bullet\">Worked closely with development and support teams to identify issues and improve product quality.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Data Analyst (Co-op)</style>"
         },
         {
           "type": "text",
-          "value": "Slegg Building Materials. Victoria, BC. May. 2018 – Aug. 2018"
+          "value": "<align=center>May 2018 – Aug. 2018</align>"
         },
         {
           "type": "text",
-          "value": "    - Summarized large reports on customers, inventory, and sales."
+          "value": "Slegg Building Materials. Victoria, BC."
         },
         {
           "type": "text",
-          "value": "Student Painting Branch Manager"
+          "value": "<style=\"Bullet\">Analyzed and summarized large datasets related to customers, inventory, and sales reporting.</style>"
+        },
+
+        {
+          "type": "text",
+          "value": "\n<style=\"Title\">Student Painting Branch Manager</style>"
         },
         {
           "type": "text",
-          "value": "Scholars Edge Painting. Victoria, BC. Oct. 2016 – Sep. 2017"
+          "value": "<align=center>Oct. 2016 – Sep. 2017</align>"
         },
         {
           "type": "text",
-          "value": "    - Sought for, interviewed, hired, trained, and coordinated employees on a tight schedule.\n    - Sold and produced over $77,000 worth of painting contracts from May to August of 2017."
+          "value": "Scholars Edge Painting. Victoria, BC."
+        },
+        {
+          "type": "text",
+          "value": "<style=\"Bullet\">Recruited, hired, trained, and managed a team on a tight seasonal schedule.</style><style=\"Bullet\">Generated and delivered over $77,000 in painting contracts during the 2017 season.</style>"
         }
       ],
       "size": 12,
