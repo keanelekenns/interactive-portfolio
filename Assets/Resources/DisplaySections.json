@@ -142,7 +142,7 @@
         },
         {
           "type": "text",
-          "value": "<style=\"Bullet\">Taught students the fundamentals of programming in C as a lab instructor and marker.</style><style=\"Bullet\">Marked and gave feedback on assignments for Algorithms and Data Structures.</style><style=\"Bullet\">Taught business students the fundamentals of computing, including SQL, JavaScript, CSS, and HTML.</style>"
+          "value": "<style=\"Bullet\">Instructed and supported students in foundational C programming as a lab instructor and course marker.</style><style=\"Bullet\">Evaluated and provided feedback on assignments for Algorithms and Data Structures.</style><style=\"Bullet\">Taught business students the fundamentals of computing, including SQL, JavaScript, CSS, and HTML.</style>"
         },
 
         {
@@ -159,7 +159,7 @@
         },
         {
           "type": "text",
-          "value": "<style=\"Bullet\">Worked in a team of seven to design, develop, and test HEART, a toolkit written in C that facilitates the development of real-time control systems for adaptive optics in large telescopes across the world.</style><style=\"Bullet\">Contributed to a large project with many moving parts requiring concurrent programming, careful memory management, and object-oriented programming.</style>"
+          "value": "<style=\"Bullet\">Developed and tested HEART, a C-based toolkit for real-time control systems used in adaptive optics for large telescopes.</style><style=\"Bullet\">Worked on a large, multi-component system requiring concurrent programming, careful memory management, and collaboration across a team of engineers.</style>"
         },
 
         {
@@ -176,7 +176,7 @@
         },
         {
           "type": "text",
-          "value": "<style=\"Bullet\">Built a web application for data visualization using React and implemented a full test suite with Jest.</style><style=\"Bullet\">Performed full-stack development, continuous code reviews, and agile development processes.</style>"
+          "value": "<style=\"Bullet\">Built a React-based web application for data visualization and implemented a Jest test suite.</style><style=\"Bullet\">Contributed to full-stack development, code reviews, and agile development practices.</style>"
         },
 
         {
@@ -193,7 +193,7 @@
         },
         {
           "type": "text",
-          "value": "<style=\"Bullet\">Performed regression and manual feature testing as well as developed an automated testing suite.</style><style=\"Bullet\">Communicated frequently with developer and support teams to ensure top product quality.</style>"
+          "value": "<style=\"Bullet\">Performed manual regression and feature testing and contributed to an automated testing suite.</style><style=\"Bullet\">Worked closely with development and support teams to identify issues and improve product quality.</style>"
         },
 
         {
@@ -210,7 +210,7 @@
         },
         {
           "type": "text",
-          "value": "<style=\"Bullet\">Summarized large reports on customers, inventory, and sales.</style>"
+          "value": "<style=\"Bullet\">Analyzed and summarized large datasets related to customers, inventory, and sales reporting.</style>"
         },
 
         {
@@ -227,7 +227,7 @@
         },
         {
           "type": "text",
-          "value": "<style=\"Bullet\">Sought for, interviewed, hired, trained, and coordinated employees on a tight schedule.</style><style=\"Bullet\">Sold and produced over $77,000 worth of painting contracts from May to August 2017.</style>"
+          "value": "<style=\"Bullet\">Recruited, hired, trained, and managed a team on a tight seasonal schedule.</style><style=\"Bullet\">Generated and delivered over $77,000 in painting contracts during the 2017 season.</style>"
         }
       ],
       "size": 12,
