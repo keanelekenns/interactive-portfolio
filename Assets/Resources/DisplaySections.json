@@ -125,7 +125,7 @@
         },
         {
           "type": "text",
-          "value": "<style=\"Bullet\">Full stack development of a data standardization pipeline with an API and front-end management portal.</style><style=\"Bullet\">Implemented with ASP.NET Core w/ Telerik, Python, FastApi, SqlAlchemy, Alembic, and Redis among others.</style><style=\"Bullet\">Provisioned with IaC using AWS CDK for Python.</style><style=\"Bullet\">Engaged in system design, tool exploration, code reviews, and agile processes such as stakeholder reviews.</style>"
+          "value": "<style=\"Bullet\">Resumed development of a business-critical application that had received no source-controlled changes for nearly a decade, upgrading legacy .NET Framework and installer infrastructure and delivering new releases to Windows Server environments processing live production data feeds.</style><style=\"Bullet\">Designed, developed, and maintained a full-stack data standardization platform, including data ingestion pipelines, APIs, and a management portal using ASP.NET Core, Python, AWS, and related technologies.</style><style=\"Bullet\">Exposed a legacy production API to external clients through Azure API Management, enabling usage monitoring, access control, and billing while addressing security vulnerabilities in request handling.</style><style=\"Bullet\">Contributed to system design, code reviews, technology evaluation, deployment planning, and stakeholder collaboration across multiple projects.</style>"
         },
 
         {
