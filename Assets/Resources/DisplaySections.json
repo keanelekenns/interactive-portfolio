@@ -298,8 +298,8 @@
       "title": "???",
       "contents": [
         {
-          "type": "text",
-          "value": "Stay tuned..."
+          "type": "function",
+          "value": "toggleMatrixMode"
         }
       ],
       "size": 12,

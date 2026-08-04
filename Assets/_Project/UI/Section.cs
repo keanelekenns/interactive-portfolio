@@ -26,7 +26,25 @@ public class Section : MonoBehaviour
     private void SetupButton()
     {
         Button button = GetComponentInChildren<Button>();
-        button.onClick.AddListener(OpenModal);
+        button.onClick.AddListener(HandleClick);
+    }
+
+    private void HandleClick()
+    {
+        bool ranFunction = false;
+        foreach (Content content in details.contents)
+        {
+            if (content.type == "function")
+            {
+                SectionFunctions.Instance.Call(content.value, this);
+                ranFunction = true;
+            }
+        }
+
+        if (!ranFunction)
+        {
+            OpenModal();
+        }
     }
 
     public void OpenModal()

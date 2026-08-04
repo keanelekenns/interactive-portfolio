@@ -29,13 +29,19 @@ public class JsonLoader : MonoBehaviour
             new InstantiateParameters() { parent = transform, worldSpace = true }
         );
         section.details = details;
+        section.gameObject.name = details.title;
+
+        // Sections that run a function when clicked don't need a modal
+        if (details.contents.Exists(content => content.type == "function"))
+        {
+            return;
+        }
+
         InformationModal modal = Instantiate(modalPrefab, transform);
         modal.gameObject.SetActive(false);
         section.informationModal = modal;
 
-        section.gameObject.name = details.title;
         modal.gameObject.name = details.title + " Modal";
-
         modal.AddContents(details.contents);
     }
 }
